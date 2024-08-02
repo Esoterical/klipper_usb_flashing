@@ -14,6 +14,8 @@ callouts:
   stop:
     color: red
 
+plugins:
+  - jekyll-relative-links
 
 aux_links:
   USB Flashing guide on Github: https://github.com/Esoterical/klipper_usb_flashing
