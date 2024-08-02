@@ -102,3 +102,13 @@ Run this command to install klipper firmware via Katapult via USB. Use the devic
 ```bash
 python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_your_board_id
 ```
+
+Klipper should now be successfully flashed. Check that it is installed and by running 
+
+```bash
+ls /dev/serial/by-id
+```
+
+![image](https://github.com/Esoterical/voron_canbus/assets/124253477/1e9f0f7c-ada3-490b-bd62-bde25b67c362)
+
+You should see a "usb-klipper_..." device there instead of "usb-katapult_..."
