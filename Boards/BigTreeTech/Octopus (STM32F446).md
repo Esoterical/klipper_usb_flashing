@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+First, to make sure all the required dependencies are met, SSH into your Pi and run:
+
 ```bash
 sudo apt update
 sudo apt upgrade
