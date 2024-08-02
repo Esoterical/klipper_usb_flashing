@@ -18,4 +18,4 @@ plugins:
   - jekyll-relative-links
 
 aux_links:
-  CANBus Guide on Github: https://github.com/Esoterical/klipper_usb_flashing
+  USB Flashing guide on Github: https://github.com/Esoterical/klipper_usb_flashing
