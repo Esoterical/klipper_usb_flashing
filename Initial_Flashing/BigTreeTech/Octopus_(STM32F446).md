@@ -1,4 +1,11 @@
-# BigTreeTech Octopus
+---
+layout: default 
+title: BigTreeTech Octopus (STM32F446)
+parent: BigTreeTech
+grand_parent: Initial Flashing
+---
+
+# BigTreeTech Octopus (STM32F446)
 
 ## Prerequisites
 
