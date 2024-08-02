@@ -1,9 +1,9 @@
-title: Esoterical's CANBus Guide
-description: A guide for setting up CANBus hardware on 3D printers
+title: Esoterical's USB Flashing guide
+description: A guide for setting up flashing USB Klipper to various hardware on 3D printers
 theme: just-the-docs
 color_scheme: eso-dark
 markdown: kramdown
-url: https://jtd.esoterical.online
+url: https://esoterical.github.io/klipper_usb_flashing/
 logo: "/assets/esoterical-canbus-green.png"
 favicon_ico: "/assets/favicon.ico"
 
@@ -18,4 +18,4 @@ plugins:
   - jekyll-relative-links
 
 aux_links:
-  CANBus Guide on Github: https://github.com/Esoterical/voron_canbus
+  CANBus Guide on Github: https://github.com/Esoterical/klipper_usb_flashing
