@@ -10,7 +10,7 @@ sudo apt upgrade
 sudo apt install python3 python3-serial
 ```
 
-## Katapult
+## Installing Katapult via DFU Mode
 
 Run the following commands to clone (or update) the repo:
 
@@ -63,7 +63,7 @@ ls /dev/serial/by-id
 
 You should see a "usb-katapult_..." device there. If you don't, then double-click the RESET button on your board and `ls /dev/serial/by-id` again.
 
-## Klipper
+## Installing Klipper via Katapult
 
 Move into the klipper directory on the Pi by running:
 
