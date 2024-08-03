@@ -91,7 +91,7 @@ Then go into the klipper configuration menu by running:
 make menuconfig
 ```
 
-Again, if your mainboard is already in [Hardware Config](../hardware_config/hardware_config.md) then you can copy the Klipper settings from there. 
+Again, if your mainboard is already in [Hardware Config](./hardware_config/hardware_config.md) then you can copy the Klipper settings from there. 
 
 Otherwise, check the user manual for your board as it should list the proper klipper menuconfig settings.
 
