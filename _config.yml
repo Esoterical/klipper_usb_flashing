@@ -3,7 +3,7 @@ description: A guide for setting up flashing USB Klipper to various hardware on 
 theme: just-the-docs
 color_scheme: eso-dark
 markdown: kramdown
-url: https://esoterical.github.io/klipper_usb_flashing/
+url: https://usb.esoterical.online
 logo: "/assets/esoterical-usb.png"
 favicon_ico: "/assets/favicon.ico"
 
