@@ -68,13 +68,13 @@ make flash FLASH_DEVICE=2e8a:0003
 Katapult should now be successfully flashed. Check that Katapult is installed by running 
 
 ```bash
-ls -d /dev/serial/by-id/*
+ls /dev/serial/by-id/*
 ```
 
-![image](https://github.com/user-attachments/assets/cbecd6d2-4bcd-402e-b16c-e7829e890821)
+![image](https://github.com/user-attachments/assets/27cca753-6f22-4888-900a-63dfe7877b7c)
 
 
-You should see a "usb-katapult_..." device there. If you don't, then double-click the RESET button on your board and `ls /dev/serial/by-id` again.
+You should see a "usb-katapult_..." device there. If you don't, then double-click the RESET button on your board (if your board has a reset button) and `ls /dev/serial/by-id` again. Otherwise you may have to put the board back into RP Boot mode and try flashing Katapult to it again (and check your menuconfig settings are correct).
 
 ## Installing Klipper via Katapult
 
@@ -107,7 +107,7 @@ You can now flash Klipper to your board using the Katpult /dev/serial ID you fou
 ```bash
 make flash FLASH_DEVICE=/dev/serial/by-id/usb-katapult_your_board_id
 ```
-![image](https://github.com/user-attachments/assets/966aa662-2a4c-42ab-a0e6-a316e3bb03d8)
+![image](https://github.com/user-attachments/assets/135ee47e-aa1f-42e0-9dc9-70e9188a5117)
 
 ![image](https://github.com/user-attachments/assets/bffb882d-145a-40c7-abb6-dc6247f11a88)
 
@@ -116,12 +116,10 @@ Don't worry about the "CanBoot" or "CAN Flash Success", we aren't flashing anyth
 Klipper should now be successfully flashed. Check that it is installed and by running 
 
 ```bash
-ls -d /dev/serial/by-id/*
+ls /dev/serial/by-id/*
 ```
 
-![image](https://github.com/user-attachments/assets/c53de7c6-bfa3-4ba4-ad6c-1eb5a6bf86e9)
-
-
+![image](https://github.com/user-attachments/assets/d661fdce-b475-45e2-87be-60e4a8fd09ce)
 
 You should see a "usb-klipper_..." device there instead of "usb-katapult_..."
 
