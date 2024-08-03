@@ -64,16 +64,21 @@ If the result shows an "Error during download get_status" or something, but abov
 Katapult should now be successfully flashed. Take your mainboard out of DFU mode (it might require removing jumpers and rebooting, or just rebooting). Check that Katapult is installed and by running 
 
 ```bash
-ls /dev/serial/by-id
+ls /dev/serial/by-id/*
 ```
 
-![Screenshot 2024-08-02 193740](https://github.com/user-attachments/assets/2d9a5500-b8bb-4cd5-a0bc-1a2267ca5df7)
+![image](https://github.com/user-attachments/assets/7931fa4d-ebe1-454d-b8dc-a36e73fff727)
 
 
 You should see a "usb-katapult_..." device there. If you don't, then double-click the RESET button on your board and `ls /dev/serial/by-id` again.
 
 ## Installing Klipper via Katapult
 
+Stop the Klipper service on the Pi by running:
+
+```bash
+sudo service klipper stop
+```
 Move into the klipper directory on the Pi by running:
 
 ```bash
@@ -92,36 +97,25 @@ Otherwise, check the user manual for your board as it should list the proper kli
 
 Once you have the correct options selected, press Q to quit the menu (it will ask to save, choose yes).
 
-Compile the firmware with `make`. You will now have a klipper.bin in your ~/klipper/out/ folder.
-
-Stop the Klipper service on the Pi by running:
+You can now flash Klipper to your board using the Katpult /dev/serial ID you found earlier by running:
 
 ```bash
-sudo service klipper stop
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-katapult_your_board_id
 ```
 
-Run an `ls /dev/serial/by-id/` and take note of the Katapult device that it shows:
+![image](https://github.com/user-attachments/assets/230b3c37-73da-4198-91eb-3f64e9678678)
 
-![Screenshot 2024-08-02 193740](https://github.com/user-attachments/assets/b7571580-6cd9-4d11-924b-6acd78f0ab72)
+![image](https://github.com/user-attachments/assets/62198289-dea3-441c-9c47-427050a1bf81)
 
 
-If the above command didn't show a 'katapult' device, or threw a "no such file or directory" error, then quickly double-click the RESET button on your mainboard and run the command again. Until you get a result from a `ls /dev/serial/by-id/` there is no point doing further steps below.
-
-Run this command to install klipper firmware via Katapult via USB. Use the device ID you just retrieved in the above ls command.
-
-```bash
-python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_your_board_id
-```
+Don't worry about the "CanBoot" or "CAN Flash Success", we aren't flashing anything CANBUS, this is just an idiosyncracy of the klipper make flash tool.
 
 Klipper should now be successfully flashed. Check that it is installed and by running 
 
 ```bash
-ls /dev/serial/by-id
+ls /dev/serial/by-id/*
 ```
-
-![Screenshot 2024-08-02 194832](https://github.com/user-attachments/assets/1f81a3bf-b263-450b-be7e-31bae2c34124)
-
-
+![image](https://github.com/user-attachments/assets/27097737-74b1-43d0-b7bf-3bdff2585375)
 
 You should see a "usb-klipper_..." device there instead of "usb-katapult_..."
 
