@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: LDO Nitehawk SB
+title: LDO Nitehawk36
 parent: Hardware Configurations
 ---
 
