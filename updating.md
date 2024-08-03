@@ -34,7 +34,7 @@ Then go into the klipper configuration menu by running:
 make menuconfig
 ```
 
-You can find screenshots of settings for common toolheads in the [Hardware Config](../hardware_config/hardware_config.md) section.
+You can find screenshots of settings for common toolheads in the [Hardware Config](./hardware_config/hardware_config.md) section.
 
 Otherwise, check the user manual for your board as it should list the proper klipper menuconfig settings.
 
