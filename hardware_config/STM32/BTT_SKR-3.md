@@ -4,14 +4,18 @@ title: BigTreeTech SKR-3
 parent: Hardware Configurations
 ---
 
-# 120 ohm Termination Resistor
+# DFU Mode
 
-There is a permanent 120 ohm termination resistor soldered to the board, no need to add a jumper to enable it and also no ability to disable it.
+To put the SKR-3 into DFU mode, hold the BOOT0 button (Blue) and while still holding press and release the RESET button (Green). Then count to 5 and release the BOOT0 button.
+
+![image](https://github.com/user-attachments/assets/dcf16fc5-473d-4ec6-9d51-201219fbf421)
+
 
 # Katapult Config
 
 ![image](https://user-images.githubusercontent.com/124253477/236376883-34ae7805-365a-40ad-a5fc-f613e9d1fc4d.png)
 
-# Klipper USB-CAN-Bridge Config
+# Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/236376937-172778da-ba61-45af-b64e-ed1b2d79f51b.png)
+![image](https://github.com/user-attachments/assets/314699bc-4433-4f51-b555-3009d58551fd)
+
