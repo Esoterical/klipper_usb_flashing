@@ -18,7 +18,7 @@ sudo apt upgrade
 sudo apt install python3 python3-serial
 ```
 
-## Installing Katapult via DFU Mode
+## Installing Katapult via RP Boot Mode
 
 First you need to clone the Katapult repo onto your pi. Run the following commands to clone (or update) the repo:
 
@@ -43,9 +43,9 @@ Press Q to quit the menu (it will ask to save, choose yes).
 
 Compile the firmware with `make`. You will now have a katapult.bin at in your ~/katapult/out/katapult.bin.
 
-To flash, connect your board to the Pi via USB then put the board into DFU mode (this should be included in the hardware_config section for your board, but if it's not then the user manual from the manufacturer should have the instructions). 
+To flash, connect your board to the Pi via USB then put the board into RP Boot mode (this should be included in the hardware_config section for your board, but if it's not then the user manual from the manufacturer should have the instructions). 
 
-To confirm it's in DFU mode you can run the command `lsusb` and look for an entry of Raspberry Pi RP2 Boot"
+To confirm it's in RP Boot mode you can run the command `lsusb` and look for an entry of Raspberry Pi RP2 Boot"
 
 ![image](https://github.com/user-attachments/assets/4a0338dd-06b2-4415-a834-a5cc18eb0d0a)
 
