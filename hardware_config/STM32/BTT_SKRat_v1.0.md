@@ -4,12 +4,6 @@ title: BigTreeTech SKRat v1.0
 parent: Hardware Configurations
 ---
 
-# 120 ohm Termination Resistor
-
-The header for the 120R termination resistor is circled in purple
-
-![image](https://github.com/Esoterical/voron_canbus/assets/124253477/1d053118-e901-4b82-91b8-ba6cbf985895)
-
 # DFU Mode
 
 To put the SKRat into DFU mode, hold the BOOT button and while still holding press and release the RESET button. Then count to 5 and release the BOOT0 button.
@@ -22,5 +16,6 @@ To put the SKRat into DFU mode, hold the BOOT button and while still holding pre
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/76cb21f2-5059-49df-83df-d9fc02992894)
 
 
-# Klipper USB-CAN-Bridge Config
-![image](https://github.com/Esoterical/voron_canbus/assets/124253477/76114c58-679c-4e0c-a832-ff20b5007d22)
+# Klipper Config
+![image](https://github.com/user-attachments/assets/673379b0-1641-49d6-bd6a-a3393d743c82)
+
