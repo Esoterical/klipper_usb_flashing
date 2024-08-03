@@ -15,7 +15,7 @@ To put the Octopus Max EZ into DFU mode, hold the BOOT0 button (Blue) and while 
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/ce6782aa-aaa7-4e95-a664-cf490f82f535)
 
-# Klipper USB-CAN-Bridge Config
+# Klipper Config
 
 ![image](https://github.com/user-attachments/assets/da637ceb-1547-47cd-b1a5-3e54802bdeae)
 
