@@ -4,9 +4,17 @@ title: Fysetc Spider V1.0
 parent: Hardware Configurations
 ---
 
-# 120 ohm Termination Resistor
+# DFU mode
 
-As the Spider v1.0 requires an [external CAN transciever](#transceiver) there is no built in 120ohm resistor on the Spider itself. The transceiver you use will likely have the 120r resistor hard soldered already, but some may have jumpers or solder pads to add/remove it from the circuit.
+To put the Spider v1.0 into DFU mode, connect the Spider to the Pi with a USB cable, then place a jumper on the `3.3v` and `BT0` pins:
+
+![image](https://github.com/user-attachments/assets/6f899861-427a-4821-bf56-d2b90bcae354)
+
+Then press the RST button on the side of the board:
+
+![image](https://github.com/user-attachments/assets/d57423c7-087f-459d-9a81-f9efdcb66500)
+
+
 
 # Katapult Config
 
