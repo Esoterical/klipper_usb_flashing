@@ -1,6 +1,8 @@
 ---
 layout: default 
 title: Initial Flashing for RP2040 Boards
+has_children: false
+nav_order: 30
 has_toc: false
 ---
 
