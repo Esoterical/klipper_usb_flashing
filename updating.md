@@ -2,7 +2,7 @@
 layout: default 
 title: Updating
 has_children: false
-nav_order: 70
+nav_order: 40
 has_toc: false
 ---
 
