@@ -21,7 +21,8 @@ To put the octopus into DFU mode you need to put in the boot jumper (purple) and
 
 ## Klipper Config
 
-![image](https://github.com/user-attachments/assets/87d568a1-8b18-43fe-a799-0be67559e57a)
+![image](https://github.com/user-attachments/assets/db3a9c4f-5aa2-4017-a217-dd76286e9c0d)
+
 
 
 
