@@ -4,11 +4,6 @@ title: BigTreeTech Manta E3EZ
 parent: Hardware Configurations
 ---
 
-# 120 ohm Termination Resistor
-
-The header for the 120R termination resistor is circled in purple
-
-![image](https://github.com/Esoterical/voron_canbus/assets/124253477/e7aa0564-4d75-4c4d-82a2-cfcb8bf6f92f)
 
 # DFU Mode
 
@@ -21,6 +16,7 @@ To put the Manta E3EZ into DFU mode, hold the BOOT button and while still holdin
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/074383e9-fd53-4672-ae33-c9fd9d37e513)
 
-# Klipper USB-CAN-Bridge Config
+# Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/235831140-66b78a6f-5f3b-403b-9383-037caf9b1eee.png)
+![image](https://github.com/user-attachments/assets/60b6dd25-c2df-41c9-a022-86b03d7e6080)
+
