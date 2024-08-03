@@ -1,6 +1,8 @@
 ---
 layout: default 
 title: Initial Flashing for STM32 Boards
+has_children: false
+nav_order: 20
 has_toc: false
 ---
 
