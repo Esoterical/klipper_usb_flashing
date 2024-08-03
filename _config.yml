@@ -4,7 +4,7 @@ theme: just-the-docs
 color_scheme: eso-dark
 markdown: kramdown
 url: https://esoterical.github.io/klipper_usb_flashing/
-logo: "/assets/esoterical-canbus-green.png"
+logo: "/assets/esoterical-usb.png"
 favicon_ico: "/assets/favicon.ico"
 
 callouts:
