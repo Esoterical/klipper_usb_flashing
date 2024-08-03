@@ -3,10 +3,7 @@ layout: default
 title: BigTreeTech Octopus
 parent: Hardware Configurations
 ---
-
-# 120 ohm Termination Resistor
-
-There is a permanent 120 ohm termination resistor soldered to the board, no need to add a jumper to enable it and also no ability to disable it.
+ 
 
 # DFU Mode
 
@@ -22,9 +19,10 @@ To put the octopus into DFU mode you need to put in the boot jumper (purple) and
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/673ce3c6-5bd7-48a8-bcd4-99aeefb0f0a2)
 
-## Klipper USB-CAN-Bridge Config
+## Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/221378034-ac82a51e-6ba7-4288-8186-91a6733dbd2f.png)
+![image](https://github.com/user-attachments/assets/87d568a1-8b18-43fe-a799-0be67559e57a)
+
 
 
 # STM32F429
@@ -32,9 +30,10 @@ To put the octopus into DFU mode you need to put in the boot jumper (purple) and
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/41d4bfe5-ed20-4956-93fd-cb3b99250aae)
 
-## Klipper USB-CAN-Bridge Config
+## Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/221378352-e22e8719-6a26-499a-9f9f-375c0baa1cd6.png)
+![image](https://github.com/user-attachments/assets/e47c3d7f-6a80-4565-bcd2-d6919cdbbe24)
+
 
 
 # STM32F407
@@ -42,9 +41,10 @@ To put the octopus into DFU mode you need to put in the boot jumper (purple) and
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/ec17d20a-2aba-4cc5-809f-aa1748a76a63)
 
-## Klipper USB-CAN-Bridge Config
+## Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/221378459-561064a6-deaa-4590-85b9-058f480871e2.png)
+![image](https://github.com/user-attachments/assets/5eb2ebe0-026b-4d7a-aeba-f4b7a9e948e0)
+
 
 
 # STM32H723
@@ -52,6 +52,7 @@ To put the octopus into DFU mode you need to put in the boot jumper (purple) and
 
 ![image](https://github.com/Esoterical/voron_canbus/assets/124253477/e9850f4a-d4d9-438b-8b95-3fd21cd790d8)
 
-## Klipper USB-CAN-Bridge Config
+## Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/221378502-d3aee8c7-c4ba-42da-838b-3e64cfc6262d.png)
+![image](https://github.com/user-attachments/assets/9c56b76b-26d5-48ec-a028-b5c2269efbea)
+
