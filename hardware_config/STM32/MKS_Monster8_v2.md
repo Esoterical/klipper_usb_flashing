@@ -1,8 +1,7 @@
 ---
 layout: default 
 title: MKS Monster8 v2
-parent: Common Mainboard Hardware
-grand_parent: Mainboard Flashing
+parent: Hardware Configurations
 ---
 
 

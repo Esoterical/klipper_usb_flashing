@@ -1,8 +1,7 @@
 ---
 layout: default 
 title: BigTreeTech Manta M5P V1.0
-parent: Common Mainboard Hardware
-grand_parent: Mainboard Flashing
+parent: Hardware Configurations
 ---
 
 # 120 ohm Termination Resistor

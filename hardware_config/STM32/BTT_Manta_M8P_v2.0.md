@@ -1,8 +1,7 @@
 ---
 layout: default 
 title: BigTreeTech Manta M8P V2.0
-parent: Common Mainboard Hardware
-grand_parent: Mainboard Flashing
+parent: Hardware Configurations
 ---
 
 # 120 ohm Termination Resistor

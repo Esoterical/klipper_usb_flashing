@@ -1,8 +1,7 @@
 ---
 layout: default 
 title: LDO Leviathan 
-parent: Common Mainboard Hardware
-grand_parent: Mainboard Flashing
+parent: Hardware Configurations
 ---
 
 # 120 ohm Termination Resistor
