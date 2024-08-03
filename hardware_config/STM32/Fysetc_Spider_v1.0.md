@@ -12,17 +12,8 @@ As the Spider v1.0 requires an [external CAN transciever](#transceiver) there is
 
 ![image](https://user-images.githubusercontent.com/124253477/221349790-d073d222-1061-4c81-a7eb-796a8693b621.png)
 
-# Klipper USB-CAN-Bridge Config
+# Klipper Config
 
-![image](https://user-images.githubusercontent.com/124253477/221349817-d7381c21-fecc-4111-a34b-bf0522cd456e.png)
-
-
-# Transceiver
-You will need a seperate CAN Transceiver board, such as the TJA1050:
-
-![image](https://github.com/Esoterical/voron_canbus/assets/124253477/2df10f80-8239-4368-9aa4-e1abe9ded541)
+![image](https://github.com/user-attachments/assets/98bd3193-6713-4daf-8408-550105267088)
 
 
-The Can Rx and Can Tx will be connected to the PD0 and PD1 port (which is labelled as the CAN port). You can also hook up the Gnd and 5v from this port to the transceiver board.
-
-![image](https://user-images.githubusercontent.com/124253477/221392367-bc3c2d55-2869-4d79-9610-3f2bb0bf41dc.png)
