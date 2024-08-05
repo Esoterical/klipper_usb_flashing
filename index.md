@@ -24,6 +24,9 @@ Katapult is a small bit of bootloader firmware *seperate* to Klipper. You can te
 
 I prefer to use Katapult instead and overwriting the "stock" board bootloader in the process. The stock bootloader on a lot of boards is the little bit of code that lets you flash the board firmware via a micro-SD card, and they almost universally suck. Replacing this stock bootloader with Katapult lets you simply flash/update your Klipper firmware over a USB connection with no physical interaction required with the board being flashed (no more flipping a printer and removing panels).
 
+# My board isn't listed
+
+If the particular board you want to flash isn't already in the [Hardware Config List](./hardware_config/hardware_config.md), or if the entry has incorrect information, please lodge a [Pull Request](https://github.com/Esoterical/klipper_usb_flashing/pulls) or raise an [Issue](https://github.com/Esoterical/klipper_usb_flashing/issues)
 
 # Let's Go!
 
