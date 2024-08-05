@@ -7,6 +7,6 @@ has_toc: true
 ---
 
 
-# My board isn't listed
+# Hardware Configurations
 
 If the particular board you want to flash isn't listed below, or if the entry has incorrect information, please lodge a [Pull Request](https://github.com/Esoterical/klipper_usb_flashing/pulls) or raise an [Issue](https://github.com/Esoterical/klipper_usb_flashing/issues)
