@@ -11,7 +11,7 @@ So you want to install Klipper onto your 3D printer. Wonderful! While the proces
 
 Before we get started, a little background information.
 
-Klipper on a 3D printer comprises of two parts, the Klipper Service side running on a computer (usually a Raspberry Pi, but any computer almost any computer can work) and then the Klipper *firmware* that is flashed to the actual 3D printer board inside your printer.
+Klipper on a 3D printer comprises of two parts, the Klipper Service side running on a computer (usually a Raspberry Pi, but almost any computer can work) and then the Klipper *firmware* that is flashed to the actual 3D printer board inside your printer.
 
 This guide is how to flash the *firmware* part of the process, so it assumes you already have some sort of computer running that has the Klipper service/software side installed and functioning.
 
