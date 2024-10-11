@@ -12,7 +12,7 @@ To put the Spider 3.0 into DFU mode, hold the BT0 button and while still holding
 
 # Katapult Config
 
-![image](https://user-images.githubusercontent.com/124253477/221349790-d073d222-1061-4c81-a7eb-796a8693b621.png)
+![image](https://github.com/user-attachments/assets/7874e2ce-841b-4cc1-b2c3-bb614cb856ce)
 
 # Klipper Config
 
