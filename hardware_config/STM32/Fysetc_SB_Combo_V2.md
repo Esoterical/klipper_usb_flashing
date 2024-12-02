@@ -25,13 +25,6 @@ can be found in all the usual online marketplaces.
 
 ![image](https://github.com/user-attachments/assets/a7699202-c086-445f-bf38-3eba58d2868e)
 
-The only tweak needed for this particular ADUM-based board is to bridge the GND pins from the Pi side to the ComboV2 side. This is because the cable supplied with the Combo V2 board isn't connecting the shield wire
-(which is at the JST that connects to the USB adapter) to the rest of the DC GND. So you need to provide this connection yourself.
-It's simple to do, and doesn't stop the ADUM board from doing its job. You can solder a wire from the outside casing of the USB ports themselves, or from the USB GND pins (just test first to make sure you have the 
-correct pins).
-
-![image](https://github.com/user-attachments/assets/dc7af9cb-456d-484a-8e65-3551f0dcf131)
-
 
 # USB Mode
 
