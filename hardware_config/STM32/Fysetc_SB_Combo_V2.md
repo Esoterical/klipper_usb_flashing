@@ -11,11 +11,11 @@ if something goes wrong with your wiring (it gets caught up or damaged or cracks
 USB from working or destroying the Pi outright.~~
 
 {: .highlight }
->I have done further testing with this board, trying to induce failure through disconnecting the GND/24v/USB, and hotplugging the XT30, but nothing I've done has been able to damage either the SB Combo v2 *or* the Pi it >was attached to (without an isolator).
+>I have done further testing with this board, trying to induce failure through disconnecting the GND/24v/USB, and hotplugging the XT30, but nothing I've done has been able to damage either the SB Combo v2 *or* the Pi it was attached to (without an isolator).
 >
 >This is by no means a guarantee, but also it is likely the implementation on the Combo V2 board is robust enough to be unlikely to cause damage.
 >
->It still may be worth including an Isolator board as below just in the off chance something fails and bridges 24v to USB. It's an unlikely scenario, but an isolotor would protect the Pi if it *did* happen. And 8 bucks or >so is pretty cheap insurance.
+>It still may be worth including an Isolator board as below just in the off chance something fails and bridges 24v to USB. It's an unlikely scenario, but an isolotor would protect the Pi if it *did* happen. And 8 bucks or so is pretty cheap insurance.
 >
 >I will keep the below information available if you wish to add this extra protection to your system.
 
