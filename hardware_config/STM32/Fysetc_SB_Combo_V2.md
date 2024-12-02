@@ -6,9 +6,19 @@ parent: Hardware Configurations
 
 # Safety
 
-The Combo V2 board (at the time of writing, 12th of October 2024) doesn't ship with any protection board for the USB connection to your Pi. If you plug it directly in to the USB ports of your Pi there is a risk that 
+~~The Combo V2 board (at the time of writing, 12th of October 2024) doesn't ship with any protection board for the USB connection to your Pi. If you plug it directly in to the USB ports of your Pi there is a risk that 
 if something goes wrong with your wiring (it gets caught up or damaged or cracks or whatever) then there could be a voltage spike that has the potential to damage the USB circuitry on the Raspberry Pi, stopping the 
-USB from working or destroying the Pi outright.
+USB from working or destroying the Pi outright.~~
+
+{: .highlight }
+>I have done further testing with this board, trying to induce failure through disconnecting the GND/24v/USB, and hotplugging the XT30, but nothing I've done has been able to damage either the SB Combo v2 *or* the Pi it >was attached to (without an isolator).
+>
+>This is by no means a guarantee, but also it is likely the implementation on the Combo V2 board is robust enough to be unlikely to cause damage.
+>
+>It still may be worth including an Isolator board as below just in the off chance something fails and bridges 24v to USB. It's an unlikely scenario, but an isolotor would protect the Pi if it *did* happen. And 8 bucks or >so is pretty cheap insurance.
+>
+>I will keep the below information available if you wish to add this extra protection to your system.
+
 
 A simple solution I've found is an isolation board using the [ADUM3160](https://www.aliexpress.com/w/wholesale-ADUM3160.html) usb isolator chip. They are pretty cheap (around 9 Australian dollars) and no doubt they
 can be found in all the usual online marketplaces.
