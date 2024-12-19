@@ -6,9 +6,10 @@ parent: Hardware Configurations
 
 # DFU Mode
 
-To put the Spider 3.0 into DFU mode, hold the BT0 button and while still holding press and release the RST button. Then count to 5 and release the BT0 button.
+To put the Spider 3.0 H7 into DFU mode, hold the BT0 button and while still holding press and release the RST button. Then count to 5 and release the BT0 button.
 
-![image](https://github.com/Esoterical/voron_canbus/assets/124253477/f3901e72-4066-4125-885d-d78205e9f1ae)
+![image](https://github.com/user-attachments/assets/284ac43b-7574-4f8e-aa43-876bd6561350)
+
 
 # Katapult Config
 
