@@ -7,6 +7,7 @@ parent: Hardware Configurations
 # USB/CAN Mode Switch
 
 If your Eddy is the Duo version, make sure the USB/CAN toggle on the back of the Eddy is set to USB
+(the older USB-only Eddy doesn't have this switch)
 
 ![image](https://github.com/user-attachments/assets/890916aa-7f22-4228-9e52-a6a2b255590e)
 
@@ -14,6 +15,7 @@ If your Eddy is the Duo version, make sure the USB/CAN toggle on the back of the
 # RP Boot Mode
 
 To put the Eddy into boot mode, hold the BOOT button while plugging in the USB cable (either directly to your Pi or into a USB toolhead that has extra USB-Out ports)
+
 The BOOT button is located on the top of the Eddy.
 
 ![image](https://github.com/user-attachments/assets/ee5b003c-1ddd-4c57-b76a-3c8f4d58dfb5)
