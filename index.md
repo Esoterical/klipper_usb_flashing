@@ -24,6 +24,18 @@ Katapult is a small bit of bootloader firmware *seperate* to Klipper. You can te
 
 I prefer to use Katapult instead and overwriting the "stock" board bootloader in the process. The stock bootloader on a lot of boards is the little bit of code that lets you flash the board firmware via a micro-SD card, and they almost universally suck. Replacing this stock bootloader with Katapult lets you simply flash/update your Klipper firmware over a USB connection with no physical interaction required with the board being flashed (no more flipping a printer and removing panels).
 
+# Toolhead Cabling
+
+If you are using a USB toolhead (Nitehawk, SB2209-USB, SB Combo V2, etc.) it is *extremely* important to have the main cable properly supported
+and strain relieved. A cable that has constant sharp bends during motion or a toolhead board connector that is wiggling around will soon develop
+communication issues.
+
+A common method of supporting and strain relieving the umbilcal is to use PG7 glands, and although these work really well they also tend to mean people have to cut or repin the premade cables that come with some boards. Because of this I prefer using the printable [P.U.G](https://www.printables.com/model/378567-pug-parametric-umbilical-gland) umbilical gland. It does the same job as a PG7 but comes in two halves so you can clamp it over any cable without needing to cut/depin anything.
+
+I've got a public Printables "collection" of various PUG mounts for different extruders [here](https://www.printables.com/@Esoterical_306854/collections/2039742) and will hopefully grow it over time, so be sure to check there to see if one of them fits your toolboard/extruder.
+
+Note, this is only really relevant for Toolhead boards that are moving around the printer. For boards that don't move (like a mainboard or a
+board running a multi-material device of some kind) standard USB cables would be fine (as long as they can't get bumped loose).
 
 # Let's Go!
 
