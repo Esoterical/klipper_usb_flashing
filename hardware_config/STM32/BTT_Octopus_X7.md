@@ -6,7 +6,7 @@ parent: Hardware Configurations
 
 # DFU Mode
 
-To put the octopus into DFU mode, hold the BOOT button and while still holding press and release the RESET button. Then count to 5 and release the BOOT button.
+To put the Octopus X7 into DFU mode, hold the BOOT button and while still holding press and release the RESET button. Then count to 5 and release the BOOT button.
 
 ![image](https://github.com/user-attachments/assets/dbcd62fe-7180-49d3-b2ef-c61ef9639c96)
 
