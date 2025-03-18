@@ -8,7 +8,7 @@ parent: Hardware Configurations
 
 To put the Nitehawk36 into boot mode, connect it via USB to the Pi (using the included breakout board) then hold the BOOT0 button, press and release the RESET button, then count to 5 and release the BOOT0 button.
 
-![image](https://github.com/user-attachments/assets/41434c22-25da-49c5-9d3c-026138f8009c)
+![image](https://github.com/user-attachments/assets/556d313f-5032-4fc9-b472-88c1319d6641)
 
 
 # Katapult Config
