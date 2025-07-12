@@ -18,7 +18,8 @@ Then press the RST button on the side of the board:
 
 # Katapult Config
 
-![image](https://github.com/user-attachments/assets/ca85cfcf-921e-4ada-8b7c-0915131c6354)
+<img width="766" height="219" alt="image" src="https://github.com/user-attachments/assets/883aaa6c-719b-4bb8-a65e-e82ebb5944b7" />
+
 
 
 # Klipper Config
