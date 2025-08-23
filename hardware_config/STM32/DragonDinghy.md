@@ -32,4 +32,5 @@ To put the DragonDinghy into DFU mode:
 
 # Additional Info
 
-Manual and schematic and other info can be found at https://github.com/xbst/AFC-Lite/tree/master
+[Manual](https://dgnkty.de/dinghy){: .btn .btn-purple }
+[GitHub Projects](https://github.com/Drachenkaetzchen/DragonDinghy){: .btn .btn-purple }
