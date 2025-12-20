@@ -6,7 +6,7 @@ parent: Hardware Configurations
 
 # USB Mode
 
-To put the EBB36 Gen2 into CAN mode (instead of USB mode) make sure to **remove** any jumper on the USB/CAN header
+To put the EBB36 Gen2 into USB mode (instead of CAN mode) make sure to **remove** any jumper on the USB/CAN header
 
 <img width="655" height="478" alt="image" src="https://github.com/user-attachments/assets/6d3c9f5d-413d-4588-b8c5-5804552e4c3c" />
 
