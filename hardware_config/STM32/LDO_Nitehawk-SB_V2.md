@@ -4,9 +4,9 @@ title: LDO Nitehawk SB V2
 parent: Hardware Configurations
 ---
 
-# RP Boot Mode
+# DFU Mode
 
-To put the Nitehawk-SB V2 into boot mode, connect it via USB to the Pi (using the included breakout board) then hold the BOOT0 button, press and release the RESET button, then count to 5 and release the BOOT0 button.
+To put the Nitehawk-SB V2 into DFU mode, connect it via USB to the Pi (using the included breakout board) then hold the BOOT0 button, press and release the RESET button, then count to 5 and release the BOOT0 button.
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/52173282-91b9-4848-9ac1-cca940d90eba" />
 
