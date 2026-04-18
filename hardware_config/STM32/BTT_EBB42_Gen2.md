@@ -24,12 +24,14 @@ Then power up the system and on the EBB42 Gen2 board hold the BOOT button, press
 
 # Katapult Config
 
-<img width="754" height="274" alt="image" src="https://github.com/user-attachments/assets/af504c9a-43db-487f-b018-64ebe42ab554" />
+<img width="1264" height="456" alt="image" src="https://github.com/user-attachments/assets/3695dd80-14de-429c-a24a-1ff450c7b913" />
+
 
 
 # Klipper Config
 
-<img width="717" height="238" alt="image" src="https://github.com/user-attachments/assets/a6c27dec-c665-49af-b764-c8d7ccc1b10f" />
+<img width="1167" height="358" alt="image" src="https://github.com/user-attachments/assets/bcb17056-1db1-462a-8794-d647316baa39" />
+
 
 
 # Sample Configuration
