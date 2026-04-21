@@ -6,7 +6,7 @@ parent: Hardware Configurations
 
 # RP Boot Mode
 
-To put the SKR Pico into boot mode, connect the Pico to the Pi using a USB cable (put a jumper on the "USB Power" header if you don't have the board powered by 24v at this time), put a jumper on the "Boot" header and then press the "Reset" button.
+To put the SKR Pico into boot mode, connect the Pico to the Pi using a USB cable (put a jumper on the "USB Power" header if you don't have the board powered by 24v at this time), put a jumper on the "Boot" header and then press the "Reset" button. Then count to 5 and remove the "Boot" jumper.
 
 ![image](https://github.com/user-attachments/assets/ff057d9c-f753-45f1-abdb-7f65a473374c)
 
