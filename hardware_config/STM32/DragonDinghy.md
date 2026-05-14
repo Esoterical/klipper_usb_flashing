@@ -32,4 +32,4 @@ To put the DragonDinghy into DFU mode:
 
 # Additional Info
 
-Manual and schematic and other info can be found at https://github.com/xbst/AFC-Lite/tree/master
+Manual, schematics and troubleshooting guides can be found at [https://drachenkaetzchen.github.io/DragonDinghy/](https://drachenkaetzchen.github.io/DragonDinghy/)
